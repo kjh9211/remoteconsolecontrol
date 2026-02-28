@@ -1,0 +1,16 @@
+name: remoteConsoleControl
+version: '1.0'
+main: kr.kjh9211.remoteConsoleControl.RemoteConsoleControl
+api-version: '1.20'
+load: STARTUP
+
+commands:
+  rcc:
+    description: RemoteConsoleControl command
+    usage: /rcc reload
+    permission: rcc.admin
+
+permissions:
+  rcc.admin:
+    description: Allows reloading RemoteConsoleControl configuration
+    default: op

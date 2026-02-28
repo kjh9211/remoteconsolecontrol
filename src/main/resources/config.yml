@@ -1,0 +1,6 @@
+discord:
+  client-id: "1341036348072661053"
+  client-secret: "N8CGWWGUILkrGC4sTbZAf3X19tfuAW7F"
+  redirect-uri: "http://localhost:7070/api/auth/callback"
+allowed-users:
+  - "914868227652337695"
